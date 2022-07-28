@@ -1,4 +1,5 @@
 import SwiftSyntax
+import SwiftSyntaxParser
 import Highlighter
 import struct Foundation.URL
 

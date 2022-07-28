@@ -158,6 +158,10 @@ public enum Pygments: TokenizationScheme {
             token = Token(string, kind: Other.self)
         case .eof:
             break
+        case .poundUnavailableKeyword:
+            break
+        case .regexLiteral(_):
+            break
         }
 
         if tokenSyntax.tokenClassification.kind == .typeIdentifier,
